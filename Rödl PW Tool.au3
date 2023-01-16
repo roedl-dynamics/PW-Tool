@@ -20,8 +20,8 @@
 	Template AutoIt script.
 
 #ce ----------------------------------------------------------------------------
-Opt ("MustDeclareVars",1)
 ; Script Start - Add your code below here
+Opt ("MustDeclareVars",1)
 #include <EditConstants.au3>
 #include <GUIConstantsEx.au3>
 #include <StaticConstants.au3>
