@@ -84,7 +84,11 @@ While 1
 	Local $buttonIndex = _ArraySearch($Buttons,$nMsg,1,$Buttons[0])
 		If $buttonIndex > 0 Then
 			$passwoerterEnt[$buttonIndex] = _Crypt_DecryptData($passwoerter[$buttonIndex],$Key,$Algorithmus)
+			Local $previous = _ClipBoard_GetData()
 			_ClipBoard_SetData(BinaryToString($passwoerterEnt[$buttonIndex]))
+			GUISetState(@SW_HIDE)
+			Sleep(5000)															;wartet 5 Sekunden
+			_ClipBoard_SetData($previous)
 			ExitLoop
 	EndIf
 WEnd
