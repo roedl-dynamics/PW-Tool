@@ -12,4 +12,10 @@ The password is saved in encrypted form in the INI file.
 
 ![image](https://github.com/roedl-dynamics/PW-Tool/blob/main/PW%20Tool.PNG)
 
+#Edit this Script 
+This program is purely written with the AutoIt script editor SciTE.
+Free Download links: 
+1.  [AutoIt3](https://www.autoitscript.com/site/autoit/downloads/).
+2.	[SciTE](https://www.autoitscript.com/site/autoit-script-editor/downloads/).
+
 
