@@ -76,6 +76,7 @@ For $i = 1 to UBound($SectionNames)-1
 Next
 
 GUISetState(@SW_SHOWNA)
+
 WinSetOnTop($Fenster, "", $WINDOWS_ONTOP)
 
 While 1
