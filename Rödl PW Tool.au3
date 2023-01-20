@@ -25,6 +25,7 @@ Opt ("MustDeclareVars",1)
 #include <EditConstants.au3>
 #include <GUIConstantsEx.au3>
 #include <StaticConstants.au3>
+#include <AutoItConstants.au3>
 #include <WindowsConstants.au3>
 #include <MsgBoxConstants.au3>
 #include <Clipboard.au3>
@@ -75,7 +76,10 @@ For $i = 1 to UBound($SectionNames)-1
 Next
 
 GUISetState(@SW_SHOWNA)
+WinSetOnTop($Fenster, "", $WINDOWS_ONTOP)
+
 While 1
+	;WinSetOnTop($Fenster, "", $WINDOWS_ONTOP)
 	Local $nMsg = GUIGetMsg()
 	Switch $nMsg
 		Case $GUI_EVENT_CLOSE
