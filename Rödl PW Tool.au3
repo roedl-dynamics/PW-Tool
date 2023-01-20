@@ -77,7 +77,7 @@ Next
 
 GUISetState(@SW_SHOWNA)
 
-WinSetOnTop($Fenster, "", $WINDOWS_ONTOP)
+WinSetOnTop($Fenster, "", $WINDOWS_ONTOP);plaziert das Fenster im vordergrunnd
 
 While 1
 	;WinSetOnTop($Fenster, "", $WINDOWS_ONTOP)
