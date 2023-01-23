@@ -4,6 +4,7 @@ By clicking on the corresponding button, the decrypted password is copied to the
 The password is saved in encrypted form in the INI file.
 
 <h2>How to use </h2>
+
 1. create a folder with the .exe file and an INI file.
 2. Now you can pin the exe file to the taskbar. 
 3. When the GUI is started you can copy the desired password by clicking on the button
