@@ -6,8 +6,8 @@ The password is saved in encrypted form in the INI file.
 <h2>How to use </h2>
 
 1. create a folder with the .exe file and an INI file.
-2. The INI file must have the following structure
-	-[Button01]
+2. The INI file must have the following structure:
+	- [Button01]
 	- Caption = 
 	- PW = 
 3. Now you can pin the exe file to the taskbar. 
