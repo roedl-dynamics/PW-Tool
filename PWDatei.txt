@@ -1,0 +1,7 @@
+[Button01]
+Caption = Beispiel 1
+PW =0x97EA 
+
+[Button02]
+Caption = Beispiel 2
+PW =0x95EC
