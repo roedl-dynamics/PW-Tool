@@ -7,9 +7,9 @@ The password is saved in encrypted form in the INI file.
 
 1. create a folder with the .exe file and an INI file.
 2. The INI file must have the following structure
-	[Button01]
-	Caption = 
-	PW = 
+	-[Button01]
+	- Caption = 
+	- PW = 
 3. Now you can pin the exe file to the taskbar. 
 4. When the GUI is started you can copy the desired password by clicking on the button
 5. You have five seconds before the old clipboard is restored
