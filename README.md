@@ -6,9 +6,13 @@ The password is saved in encrypted form in the INI file.
 <h2>How to use </h2>
 
 1. create a folder with the .exe file and an INI file.
-2. Now you can pin the exe file to the taskbar. 
-3. When the GUI is started you can copy the desired password by clicking on the button
-4. You have five seconds before the old clipboard is restored
+2. The INI file must have the following structure
+	[Button01]
+	Caption = 
+	PW = 
+3. Now you can pin the exe file to the taskbar. 
+4. When the GUI is started you can copy the desired password by clicking on the button
+5. You have five seconds before the old clipboard is restored
 
 
 ![image](https://github.com/roedl-dynamics/PW-Tool/blob/main/PW%20Tool.PNG)
