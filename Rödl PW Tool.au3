@@ -53,7 +53,7 @@ For $n = 0 to UBound($SectionNames)-1
 	$height = $height+ 50
 Next
 
-Global  $Fenster = GUICreate("Rödl Dynamics - Fast Password Copy",250,$height)
+Global  $Fenster = GUICreate("Rödl Dynamics - Fast Password Copy",250,$height,-1,-1,-1,$WS_EX_TOPMOST,0)
 
 For $i = 1 to UBound($SectionNames)-1
 	$captions[$i] = IniRead($INI,$SectionNames[$i],"Caption","") ; Caption zuweisung
@@ -76,8 +76,6 @@ For $i = 1 to UBound($SectionNames)-1
 Next
 
 GUISetState(@SW_SHOWNA)
-
-WinSetOnTop($Fenster, "", $WINDOWS_ONTOP);plaziert das Fenster im vordergrunnd
 
 While 1
 	;WinSetOnTop($Fenster, "", $WINDOWS_ONTOP)
